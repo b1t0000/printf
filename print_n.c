@@ -40,7 +40,7 @@ int _int(va_list args, int *posi)
 	}
 	print_int(p, &printed);
 	*posi += 1;
-	return (printed);
+	return (printed - 3);
 }
 /**
  * _bin - decimal to binary
@@ -68,5 +68,5 @@ int _bin(va_list args, int *posi)
 		printed++;
 	}
 	*posi += 1;
-	return (printed);
+	return (printed - 3);
 }
